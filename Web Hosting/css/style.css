@@ -1,0 +1,51 @@
+.carousel {
+    min-height: 500px;
+    margin-bottom: 60px;
+}
+.carousel-caption {
+    z-index: 10;
+    text-align: left;
+    top: 70px;
+    right: 10%;
+    left: 10%;
+    font-size: 22px;
+}
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.background-img {
+    width: 100%;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+li {
+    list-style: none;
+}
+/* Marketing section */
+.marketing {
+    text-align: center;
+    margin: 30px 0;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.price strong {
+    font-size: 30px;
+}
+.price {
+    margin: 30px 0;
+}
+
+/* ================ Domain Page ======================= */
+.jumbotron {
+    background: #bf5a16;
+}
+.well {
+    overflow: auto;
+}
